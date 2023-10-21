@@ -13,6 +13,9 @@ venv.bak/
 # VS Code Settings
 .vscode/
 
+# archive directory
+.archive/
+
 # Power BI extensions
 *.pbix
 *.pbit

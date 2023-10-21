@@ -79,7 +79,7 @@ def describe_object_fields(dataframe: pd.DataFrame) -> pd.DataFrame:
         count = dataframe[col].notnull().sum()
         unique_values = dataframe[col].nunique()
         longest_value = dataframe[col].str.len().max()
-        average_length_value = dataframe[col].str.len().mean()
+        average_length_value = round(dataframe[col].str.len().mean(), 1)
         shortest_value = dataframe[col].str.len().min()
         max_value_count = (
             dataframe[col].str.len() == longest_value).sum()

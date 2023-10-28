@@ -13,8 +13,11 @@ venv.bak/
 # VS Code Settings
 .vscode/
 
-# archive directory
-.archive/
+# archive/rough/other assets directory (Not Source Control: NSC)
+nsc_*/
+nsc_archive/
+nsc_rough/
+nsc_assets/
 
 # Power BI extensions
 *.pbix

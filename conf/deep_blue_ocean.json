@@ -1,0 +1,64 @@
+﻿{
+  "name": "Deep Blue Ocean",
+  "textClasses": {
+    "callout": {
+      "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+      "fontSize": 25,
+      "color": "#F2F3F8"
+    },
+    "title": {
+      "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif",
+      "fontSize": 9,
+      "color": "#F2F3F8"
+    },
+    "header": { "fontSize": 9, "color": "#F2F3F8" },
+    "label": { "color": "#F2F3F8" }
+  },
+  "dataColors": [
+    "#242942",
+    "#2A304A",
+    "#343A56",
+    "#59C3E6",
+    "#C2F0FF",
+    "#7BD1ED",
+    "#2B96B9",
+    "#F2F3F8",
+    "#bbbbbb",
+    "#999999",
+    "#666666",
+    "#333333"
+  ],
+  "bad": "#ff686b",
+  "neutral": "#FFF6CC",
+  "good": "#84dcc6",
+  "minimum": "#A8CFE1",
+  "center": "#343A56",
+  "maximum": "#242942",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [{ "color": { "solid": { "color": "#343A56" } } }],
+        "visualTooltip": [
+          {
+            "titleFontColor": { "solid": { "color": "#F2F3F8" } },
+            "valueFontColor": { "solid": { "color": "#F2F3F8" } },
+            "background": { "solid": { "color": "#343A56" } }
+          }
+        ],
+        "visualHeaderTooltip": [
+          {
+            "titleFontColor": { "solid": { "color": "#F2F3F8" } },
+            "background": { "solid": { "color": "#343A56" } }
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          { "color": { "solid": { "color": "#FFFFFF" } }, "transparency": 100 }
+        ]
+      }
+    }
+  }
+}
